@@ -54,7 +54,7 @@ Run with more logging enabled:
 Sometimes the public delegate nodes do not respond or refuse connections. With debug logging enabled you may see things like:
 
 ```
-findProviders errored: FetchError: request to https://node0.preload.ipfs.io/api/v0/dht/findProvs?timeout=30000ms&arg=QmS8MP5iwaHF1dugfwvaDMZEqobva6kHzbS62UszPj5ezn failed, reason: connect ECONNREFUSED 147.75.69.147:443
+findProviders errored: FetchError: request to https://node0.preload.ipfs.io/api/v0/dht/findprovs?timeout=30000ms&arg=QmS8MP5iwaHF1dugfwvaDMZEqobva6kHzbS62UszPj5ezn failed, reason: connect ECONNREFUSED 147.75.69.147:443
 ```
 
 If this happens, re-run the example or start your own delegate nodes and update the list of servers in `index.js` to use them.
